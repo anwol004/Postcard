@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         // Adding a Comment here to test Gid
         messageLabel.hidden = false
         nameLabel.hidden = false
-        nameLabel.text = enterMessageTextField.text
+        nameLabel.text = enterNameTextField.text
         messageLabel.text = enterMessageTextField.text
         enterMessageTextField.text = ""
         enterNameTextField.text = ""
